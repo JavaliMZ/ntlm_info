@@ -1,4 +1,4 @@
-# getNTLMInfoFromNTLMAuthenticationChallenge
+# ntlm_info
 
 NTLM information disclosure and OS fingerprinting tool.
 
