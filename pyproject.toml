@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntlm_info"
+version = "0.1.0"
+description = "NTLM information disclosure and OS fingerprinting tool"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Sylvain Júlio" }
+]
+keywords = ["ntlm", "redteam", "pentest", "windows", "smb", "rdp"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security"
+]
+
+[project.scripts]
+ntlm_info = "ntlm_info.cli:main"
