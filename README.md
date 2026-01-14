@@ -12,10 +12,10 @@ Supports:
 
 ```bash
 pipx install .
-``
+```
 
 ## Installation Direclty From Github
 
 ```bash
 pipx install git+https://github.com/JavaliMZ/ntlm_info.git
-``
+```
